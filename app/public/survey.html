@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>FriendFinder</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Survey</h1>
+    <hr>
+    <form class="form">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" class="form-control" id="name" required>
+      </div>
+      <div class="form-group">
+        <label for="image">Image URL</label>
+        <input type="text" class="form-control" id="image" required>
+      </div>
+      <hr>
+      <h2>Select how much you agree with the following statements.</h2>
+      <div class="form-group">
+        <label for="q1" class="lead">Your mind is always buzzing with unexplored ideas and plans.</label>
+        <select id="q1" class="form-control" required>
+          <option value="" selected disabled>Please select</option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+      <br />
+      <div class="form-group">
+        <label for="q2" class="lead">Generally speaking, you rely more on your experience than your imagination.</label>
+        <select id="q2" class="form-control" required>
+          <option value="" selected disabled>Please select</option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+      <br />
+      <div class="form-group">
+        <label for="q3" class="lead">You find it easy to stay relaxed and focused even when there is some pressure.</label>
+        <select id="q3" class="form-control" required>
+          <option value="" selected disabled>Please select</option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+      <br />
+      <div class="form-group">
+        <label for="q4" class="lead">You rarely do something just out of sheer curiosity.</label>
+        <select id="q4" class="form-control" required>
+          <option value="" selected disabled>Please select</option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+      <br />
+      <div class="form-group">
+        <label for="q5" class="lead">People can rarely upset you.</label>
+        <select id="q5" class="form-control" required>
+          <option value="" selected disabled>Please select</option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+      <br />
+      <div class="form-group">
+        <label for="q6" class="lead">It is often difficult for you to relate to other people’s feelings.</label>
+        <select id="q6" class="form-control" required>
+          <option value="" selected disabled>Please select</option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+      <br />
+      <div class="form-group">
+        <label for="q7" class="lead">In a discussion, truth should be more important than people’s sensitivities.</label>
+        <select id="q7" class="form-control" required>
+          <option value="" selected disabled>Please select</option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+      <br />
+      <div class="form-group">
+        <label for="q8" class="lead">You rarely get carried away by fantasies and ideas.</label>
+        <select id="q8" class="form-control" required>
+          <option value="" selected disabled>Please select</option>
+          <option value="1">1 (Strongly Disagree)</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5 (Strongly Agree)</option>
+        </select>
+      </div>
+      <br />
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit">
+          <i class="fa fa-check-circle" aria-hidden="true"></i>
+          Submit</button>
